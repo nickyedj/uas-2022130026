@@ -1,0 +1,25 @@
+
+.container {
+    margin-bottom: 10px;
+}
+.music-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 5px;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-player audio {
+    width: 80%;
+}
+
+.music-player .song-info {
+    color: white;
+}
